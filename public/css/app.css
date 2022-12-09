@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body {
+    background-color: red;
+    overflow-x: hidden;
+}
+
+main.form-registration {
+    /* background-color: red; */
+    /* display: grid; */
+    width: 100%;
+    max-width: 750px;
+    justify-content: center;
+}
+
+
+h3.categories:hover {
+    color: #f44749;
+}
+
+/* a:hover {
+    color: red;
+} */
+.pagination>li>a,
+.pagination>li>span {
+    color: #f3af24;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: #f3af24;
+    border-color: #f3af24;
+}
